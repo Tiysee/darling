@@ -194,6 +194,7 @@ include_directories(AFTER
 	${CMAKE_CURRENT_SOURCE_DIR}/MetalKit/include
 	${CMAKE_CURRENT_SOURCE_DIR}/frameworks/include
 	${CMAKE_CURRENT_SOURCE_DIR}/private-frameworks/include
+	${CMAKE_CURRENT_SOURCE_DIR}/AVKit/include
 )
 
 add_subdirectory(external/libkqueue)
@@ -375,6 +376,7 @@ add_subdirectory(external/cocotron/CoreGraphics)
 add_subdirectory(frameworks)
 add_subdirectory(private-frameworks)
 add_subdirectory(external/usertemplate)
+add_subdirectory(AVKit)
 
 # /Applications
 #add_subdirectory(external/TextEdit)
